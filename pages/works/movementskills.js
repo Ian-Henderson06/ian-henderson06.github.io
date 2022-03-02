@@ -1,6 +1,6 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, WorkImage, Meta, YoutubeEmbed } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -21,7 +21,9 @@ made available to anyone, anytime, anywhere.
 This project aims to create a way in which the assessment of movement skills can be performed 
 via a VR headset with the use of hand and controller tracking.
             </P>
-            <br/>
+          
+            <br />
+            
             <List>
             <ListItem>
                     <Meta>Youtube Showcase</Meta>

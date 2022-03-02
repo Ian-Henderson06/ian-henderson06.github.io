@@ -12,7 +12,7 @@ const Page = () => {
     return(
         <Layout>
             <Container>
-            
+                <a href='/IAN HENDERSON.pdf' download>Click to download CV.</a>
             </Container>
         </Layout>
     )

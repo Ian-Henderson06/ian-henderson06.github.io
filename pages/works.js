@@ -28,15 +28,14 @@ const Works = () => (
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
                 <Section delay={0.1}>
                     <WorkGridItem id="toyrougelite" title="Toy Rougelite" thumbnail={rougeliteImg}>
-                        A small rougelite created in Unity. 
-                        Utilising custom dungeon generation and an item system.
+                        A small rougelite created in Unity. It uses a custom dungeon generation
+                        algorithm alongside a custom item system.               
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.1}>
                     <WorkGridItem id="movementskills" title="VR Movement Skills" thumbnail={vrImg}>
                         BSc project made to evaluate people's movement skills 
-                        according to the TGMD.
-                        
+                        according to the TGMD.                     
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.1}>

@@ -15,11 +15,11 @@ const Project = () => (
                 alt="Movement Skills"
             />
             <P>
-            The assessment of movement skills is typically performed in person with a professional. This is 
-slow and can only be performed infrequently. With the use of a VR headset, this test can be 
-made available to anyone, anytime, anywhere. 
-This project aims to create a way in which the assessment of movement skills can be performed 
-via a VR headset with the use of hand and controller tracking.
+                This project was created to allow the assessment of gross motor skills from the comfort of your own home.
+                Assessing motor skills is typically a task performed by medical health care professionals on younger children to detect motor irregularities.
+                The project was developed in Unity and utilised the XR interaction library with support for both hand and controller tracking.
+                Worldspace VR friendly GUI systems were developed, alongisde movement analysis systems.
+                The assessment conformed to the TGMD standard.
             </P>
           
             <br />

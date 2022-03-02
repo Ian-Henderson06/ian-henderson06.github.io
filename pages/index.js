@@ -30,10 +30,7 @@ const Page = () => {
                     <Heading as="h3" variant="section-title">
                         About Me:
                     </Heading>
-                    <Paragraph>Ian is a postgraduate student based just outside Glasgow.
-                        He has a First Class Batchelors degree in Computing and is currently
-                        studying for his masters. He has experience in commerical software development,
-                        but has yet to fully enter the industry.
+                    <Paragraph>  My name is Ian Henderson. After successfully gaining a First Class Batchelors degree in Computing Science, I am now a current Post-Graduate student working towards a Masters degree. I have experience in commercial software development and networked game development. Based in Lanarkshire, Scotland.
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works">

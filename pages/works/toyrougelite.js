@@ -16,7 +16,8 @@ const Project = () => (
             />
             <P>
                 A small rougelite built to experiment with items,
-                AI, dungeon generation and stylised graphics.
+                AI, dungeon generation and stylised graphics. Dungeon generation is build from scratch, utilising 
+                multithreaded breadth first generation. 
             </P>
             <br/>
             <List>

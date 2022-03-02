@@ -11,7 +11,7 @@ const Project = () => (
                 RainCheck <Badge>2021</Badge>
             </Title>
             <WorkImage
-                src="/images/works/raincheck-eyecatcher.png"
+                src="/images/works/rougelite.png"
                 alt="RainCheck"
             />
             <P>

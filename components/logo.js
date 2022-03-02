@@ -30,7 +30,7 @@ const Logo = () => {
                     >
                         Ian
                     </Text>
-                </LogoBox>
+        
             </a>
         </Link>
     )

@@ -10,9 +10,11 @@
     "prettier": "prettier -write .",
     "lint": "next lint",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -t true",
     "export": "next export -o dist/",
-    "publish": "next build && next export -o dist/ && gh-pages -d dist"
+    "publish": "next build && next export -o dist/ && gh-pages -d dist -t true",
+    "static": "next build && next export -o dist/ && touch ./dist/.nojekyll && echo 'www.mywebsite.com' > ./dist/CNAME",
+    "publishstatic" : "npm run static && npm run deploy"
   },
   "keywords": [],
   "author": "",

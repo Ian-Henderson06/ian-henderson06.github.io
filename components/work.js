@@ -1,6 +1,11 @@
 import NextLink from 'next/link'
-import { Heading, Box, Image, Link, Badge } from '@chakra-ui/react'
+import { Heading, Box, Link, Badge } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+
+import Image from './image'
+
+
+//https://mirbostani.com/posts/deploy-static-nextjs-websites-on-github-pages
 
 export const Title = ({ children }) => (
     <Box>
@@ -18,11 +23,11 @@ export const Title = ({ children }) => (
 )
 
 export const WorkImage = ({ src, alt }) => (
-    <img borderRadius="lg" w="full" src={src} alt={alt} mb={4}/>
+    <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4}/>
 )
 
 export const Meta = ({ children }) => (
     <Badge colorScheme="green" mr={2}>
-        { children}
+        {children}
     </Badge>
 )

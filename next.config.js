@@ -1,8 +1,8 @@
 // next.config.js
 
 
-const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
+//const withPlugins = require('next-compose-plugins');
+//const optimizedImages = require('next-optimized-images');
 
 
 const config = {
@@ -13,18 +13,30 @@ const config = {
   },
   reactStrictMode: true,
   images: {
-    disableStaticImages: true
+    loader: "custom",
+  }
+}
+
+module.exports = {
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
+  reactStrictMode: true,
+  images: {
+    loader: "custom",
   }
 }
   
-module.exports = withPlugins([
-  [optimizedImages, {
+//module.exports = withPlugins([
+  //[optimizedImages, {
     
-  }],
+  //}],
 
   // your other plugins here
-  config,
-]);
+ // config,
+//]);
 
 /*
 module.exports = {

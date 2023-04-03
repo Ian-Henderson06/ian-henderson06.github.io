@@ -33,13 +33,22 @@
                 <h1>Hello, I'm <span class="red">Ian.</span></h1>
                 <p>I'm a game developer based just outside Glasgow, Scotland.</p>
                 <p style="font-size: 1.5rem;">Currently working at <span class="red">Illyriad Games</span>.</p>
-                <button>Resume</button>
+                <button onclick="download('IAN HENDERSON CV.pdf');">Resume</button>
             </div>
            
         </div>
 
         <script>
             feather.replace()
+
+            function download(url) {
+                const a = document.createElement('a')
+                a.href = url
+                a.download = url.split('/').pop()
+                document.body.appendChild(a)
+                a.click()
+                document.body.removeChild(a)
+            }
         </script>
     </body>
 </html>

@@ -1,0 +1,237 @@
+:root{
+    --one: #4D455D;
+    --two: #E96479;
+    --three: #F5E9CF;
+    --four: #7DB9B6;
+    --contrast: #34373c;
+}
+
+body{
+    margin: 0;
+    background-color: #f7efed;
+}
+
+h1, h2, p{
+    font-family: 'Raleway', sans-serif;
+    color: var(--contrast);
+}
+
+p{
+    font-size: 1.3vw;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    transition: all 0.2s ease;
+    position: fixed;
+
+    transition: all 0.3s ease;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    align-items: center;
+    width: 100%;
+}
+  
+nav li {
+    float: left;
+    padding: 2.5% 4%;
+  }
+  
+  nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: var(--contrast);
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.2s ease all;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  nav li a:hover {
+    cursor: pointer;
+    color: var(--one);
+    transform: scale(1.05);
+  }
+
+button{
+    padding: 2% 10%;
+    background-color: white;
+    border-radius: 1%;
+    font-family: 'Raleway', sans-serif;
+    color: var(--contrast);
+    font-weight: 500;
+    letter-spacing: .2rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: 0.4s ease all;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: var(--contrast);
+    color: var(--two);
+    transform: scale(1.05);
+}
+
+input, textarea{
+    display: block;
+    padding: 5%;
+    padding-right: 60%;
+    margin: 15% 0%;
+}
+
+i{
+    color: var(--contrast);
+    background-color: white;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 2.5rem;    
+    padding-bottom: 1.5rem;     
+  }
+
+.bottom{
+    bottom: 0;
+}
+
+.nopad{
+    padding: 0 !important;
+}
+
+.info{
+    display: flex;
+
+    border-left: 3px solid var(--contrast);
+    border-right: 3px solid var(--contrast);
+    border-radius: 2px;
+    margin: 5%;
+    transition: all 0.1s ease-in;
+}
+
+.info:hover{
+    border: 3px solid var(--contrast);
+    transform: scale(1.05);
+}
+
+.info > .container{
+    flex: 1;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+   /* background-color: var(--contrast);*/
+}
+
+.info > .container > h1, 
+.info > .container > p{
+   /* color: white;*/
+}
+
+
+.imgcontainer{
+    position: relative;
+    border-radius: 1%;
+    border: 2px solid var(--contrast);
+}
+
+.container > .container-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5%;
+}
+
+.container > img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.feather-24{
+    width: 24px;
+    height: 24px;
+}
+
+.z-10{
+    z-index: 10;
+}
+
+.logo{
+    padding-right: 30%;
+    padding-left: 2%;
+}
+
+.logo > a{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.centre{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro h1{
+    font-size: 3.5rem;
+}
+
+.intro p{
+    font-size: 2rem;
+}
+
+.red{
+    color: var(--two);
+}
+
+.pulled{
+    padding-left: 0.1%;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    
+    background-color: white;
+   
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+   
+  }
+
+
+
+#title{
+    font-size: 15rem;
+}
+
+#content{
+    padding: 5% 20%;
+}
+
+#lastitem{
+    padding-right: 17%;
+}
+
+
+
+
